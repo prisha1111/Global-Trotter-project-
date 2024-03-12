@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globel Trotter Activity Page</title>
+    <style>
+        #fstdiv{
+          background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)) , url("https://images.pexels.com/photos/382177/pexels-photo-382177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+          background-size: cover;
+          height: 700px;
+          width: 100%;
+        }
+        #scnddiv{
+            height: 715px;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            color: white;
+        }
+        #div3{
+            color: white;
+        }
+        #p22{
+            margin-left: 23px;
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        #p23{
+            margin-left: 40px;
+            font-size: 17px;
+        }
+        #p24{
+            margin-left: 15px;
+        }
+        .secondp{
+            float: left;
+        }
+        #p21{
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+        .thirdp{
+            float: left;
+            margin-top: 80px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #p31{
+           margin-left: 550px;
+        }
+        #p32{
+            margin-left: 60px;
+        }
+        #p33{
+            margin-left: 60px;
+        }
+        #p34{
+            margin-left: 60px;
+        }
+        #p35{
+            margin-left: 60px;
+        }
+        #p36{
+            margin-left: 60px;
+        }
+        #p37{
+            margin-left: 60px;
+        }
+        #p38{
+            margin-left: 60px;
+        }
+        #p39{
+            margin-left: 60px;
+        }
+        #p399{
+            margin-left: 30px;
+        }
+        #p9:hover{
+            box-shadow: 2px 5px 12px wheat;
+        }
+        #p400{
+            margin-left: 10px;
+        }
+        #div4{
+            position: absolute;
+        }
+        #p31:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p32:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p33:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p34:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p35:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p36:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p37:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p38:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #p39:hover{
+            box-shadow: 4px 4px 25px black;
+        }
+        #div5{
+            background-color: white;
+            height: 430px;
+            width: 500px;
+            border-radius: 8px;
+            position: absolute;
+            margin-top: 130px;
+            margin-left: 720px;
+            color: black;
+            display: none;
+        }
+        #h31{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #h32{
+            margin-top: 20px;
+            margin-left: 130px;
+            font-weight: lighter;
+        }
+        #h41{
+            margin-top: 20px;
+            margin-left: 130px;
+            font-weight: lighter;
+            color: gray;
+        }
+        #p401{
+            margin-left: 420px;
+            margin-top: -60px;       
+        }
+        #p402{
+            margin-left: 20px;
+            margin-top: -80px;      
+        }
+        #img1{
+            border-radius: 50%;}
+            #h32{
+            margin-top: 20px;
+            margin-left: 130px;
+            font-weight: lighter;
+        }
+        #h33{
+            margin-top: 20px;
+            margin-left: 130px;
+            font-weight: lighter;
+        }
+        #h42{
+            margin-top: 20px;
+            margin-left: 130px;
+            font-weight: lighter;
+            color: gray;
+        }
+        #p403{
+            margin-left: 420px;
+            margin-top: -60px;       
+        }
+        #p404{
+            margin-left: 20px;
+            margin-top: -80px;      
+        }
+        #img1{
+            border-radius: 50%;}
+        #h34{
+            margin-top: 10px;
+            margin-left: 30px;
+            font-weight: bold;
+        }
+        #p400:hover + #div5{
+            display: block;
+        }
+        #div6{
+            color: white;
+            font-weight: 900;
+            margin-left: -70px;
+            margin-top: 300px;
+        }
+        #lh1{
+            font-size: 0.6in;
+            margin-left: 400px;
+            margin-top: 250px;
+           
+        }
+        #lh3{
+            font-size: 0.2in;
+            margin-left: 520px;
+            font-weight: bold;
+        }
+        #div8{
+            background-color: white;
+            height: 120px;
+            width: 98%;
+            margin-top: 210px;
+            margin-left: 25px;
+            position: sticky;
+            border-radius: 12px;
+            border: 1px solid;
+            box-shadow: 1px 1px 1px black;
+        }
+        #p51{
+            margin-left: 30px;
+        }
+        #p52{
+            margin-left: 30px;
+        }
+        #p53{
+            margin-left: 80px;
+            font-weight: bold;
+            color: black;
+            font-size: large;
+            margin-top: -43px;
+        }
+        #hrr{
+            width: 30%;
+            margin-left: 5px;
+        }
+        #p54{
+            margin-left: 30px;
+        }
+        #p55{
+            margin-left: 30px;
+        }
+        #p56{
+            margin-left: 80px;
+            font-weight: bold;
+            color: black;
+            font-size: large;
+            margin-top: -43px;
+        }
+        #hrrr{
+            width: 50%;
+            margin-left: 5px;
+        }
+        #mmdiv{
+            margin-left: 380px;
+            margin-top: -97px;
+        }
+        #p57{
+            margin-left: 30px;
+        }
+        #p58{
+            margin-left: 30px;
+        }
+        #p59{
+            margin-left: 80px;
+            font-weight: bold;
+            color: black;
+            font-size: large;
+            margin-top: -43px;
+        }
+        #hs{
+            width: 55%;
+            margin-left: 25px;
+        }
+        #yediv{
+            margin-left: 800px;
+            margin-top: -97px;
+        }
+        #yeediv{
+            margin-left: 1090px;
+            margin-top: -77px;
+        }
+        #buttonn{
+            background-color: blue;
+            height: 60px;
+            width: 100px;
+            color: white;
+            border: none;
+            margin-left: -50px;
+            margin-top: -10px;
+        }
+        #serch{
+             margin-left: 13px;
+             margin-top: -17px;
+             font-weight: bold;
+        }
+        #srchimg{
+            margin-left: -60px;
+            margin-top: 16px;
+        }
+        
+      
+
+    </style>
+</head>
+<body>
+    <div id="fstdiv">
+        <div id="scnddiv">
+        </div>
+        <div id="div3"><p class="secondp" id="p21"><img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" height="60px"></p>
+            <p class="secondp" id="p22">Globel Trotter</p>
+            <p class="secondp" id="p23"><a href="fd" style="color: white; text-decoration: none;">Search by Destination,Activity</a></p>
+            <p class="secondp" id="p24"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" height="25px"></p>
+        </div>
+        <div id="div4">
+            <p class="thirdp" id="p31"><a href="Trotter.html" target="_blank" style="color: white; text-decoration: none;">Home</a></p>
+            <p class="thirdp" id="p32"><a href="GlobelTrotteryachtpage.html" target="_blank" style="color: white; text-decoration: none;">Yacht</a></p>
+            <p class="thirdp" id="p33"><a href="GlobelTrottertourpage.html" target="_blank" style="color: white; text-decoration: none;">Tour</a></p>
+            <p class="thirdp" id="p34"><a href="GlobelTrotteractivitypage.html" style="color: white; text-decoration: none;">Activity</a></p>
+            <p class="thirdp" id="p35"><a href="GlobelTrotterhotelpage.html" target="_blank" style="color: white; text-decoration: none;">Hotel</a></p>
+            <p class="thirdp" id="p38"><a href="flight.html" target="_blank" style="color: white; text-decoration: none;">Flight</a></p>
+            <p class="thirdp" id="p399"><a href="" style="color: white; text-decoration: none;"></a></p>
+            <p class="thirdp" id="p400"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" height="24px"></a></p>
+            <div id="div5"><h3 id="h31">Your Cart</h3>
+            <hr><br>
+            <img src="https://cdn-icons.flaticon.com/png/512/5445/premium/5445197.png?token=exp=1643004069~hmac=3e46da0cf962c1c222b39fe7513c0fb5" height="250px" id="sad">
+            </div>
+        <div id="div6">
+            <h1 id="lh1">Love Where You're Going</h1>
+            <h3 id="lh3">Book experiences you'll want to tell the world about</h3>
+        </div>
+        <div id="div8">
+            <div>
+            <p id="p51" style="color: gray;">Destination</p>
+            <p id="p52"><img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" height="30px"></p>
+            <p id="p53">Where are you going?</p>
+            <hr id="hrr"></div>
+            <div id="mmdiv">
+            <p id="p54" style="color: gray;">From - To</p>
+            <p id="p55"><img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" height="30px"></p>
+            <p id="p56">Jul 27 2024/-Aug 25/2024</p>
+            <hr id="hrrr"></div>
+            <div id="yediv">
+                <p id="p57" style="color: gray;">Outdoor</p>
+                <p id="p58"><img src="https://cdn-icons-png.flaticon.com/512/71/71423.png" height="30px"></p>
+                <p id="p59">Outdoors</p>
+                <hr id="hs"></div>
+            <div id="yeediv">
+            <button id="buttonn"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" height="15px" id="srchimg"><p id="serch">Search</p></button>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="vsediv">   
+  
+    
+
+</body>
+</html>
