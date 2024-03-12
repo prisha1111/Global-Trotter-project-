@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://www.nawpic.com/media/2020/aesthetic-desktop-nawpic-4-e1605819181323.png);
+    backdrop-filter:blur(2px);
+}
+
+  
+  .feedback-form-container {
+    background: rgba(55, 50, 86, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 0px rgb(102, 231, 216);
+    width: 100%;
+    max-width: 400px;
+  }
+  h2{
+    color:white;
+    font-size: 29px;
+    
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a09494;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #fa2d2dc8;
+    color: rgb(255, 246, 246);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #065f0ea1;
+  }
